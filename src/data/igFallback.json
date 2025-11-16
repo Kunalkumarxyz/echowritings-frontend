@@ -1,0 +1,78 @@
+{
+  "youtube_channel_handle": "EchoWritings",
+  "youtube_channel_id": "",
+  "posts": [
+    {
+      "id": "ew1",
+      "type": "IMAGE",
+      "media_url": "https://picsum.photos/id/1015/1200/800",
+      "thumbnail_url": "https://picsum.photos/id/1015/400/267",
+      "caption": "EchoWritings: Be brave, be kind.",
+      "permalink": "h",
+      "platform": "instagram"
+    },
+    {
+      "id": "ew2",
+      "type": "VIDEO",
+      "media_url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+      "thumbnail_url": "https://picsum.photos/200/300",
+      "caption": "Reel: Behind the writing.",
+      "permalink": "https://www.youtube.com/watch?v=KOhP4MqZtaU",
+      "platform": "youtube"
+    },
+    {
+      "id": "ew3",
+      "type": "IMAGE",
+      "media_url": "https://picsum.photos/id/1024/1200/800",
+      "thumbnail_url": "https://picsum.photos/id/1024/400/267",
+      "caption": "Quote: Write what you feel.",
+      "permalink": "https://www.instagram.com/p/PLACEHOLDER3/",
+      "platform": "instagram"
+    },
+    {
+      "id": "ew4",
+      "type": "IMAGE",
+      "media_url": "https://picsum.photos/id/1035/1200/800",
+      "thumbnail_url": "https://picsum.photos/id/1035/400/267",
+      "caption": "Quote: Small words, big feelings.",
+      "permalink": "",
+      "platform": "instagram"
+    },
+    {
+      "id": "ew5",
+      "type": "VIDEO",
+      "media_url": "https://sample-videos.com/video123/mp4/480/big_buck_bunny_480p_1mb.mp4",
+      "thumbnail_url": "https://picsum.photos/id/1060/400/267",
+      "caption": "Reel: Creative process.",
+      "permalink": "",
+      "platform": "instagram"
+    },
+    {
+      "id": "ew6",
+      "type": "IMAGE",
+      "media_url": "https://picsum.photos/id/1062/1200/800",
+      "thumbnail_url": "https://picsum.photos/id/1062/400/267",
+      "caption": "Quote: Words that echo.",
+      "permalink": "https://www.instagram.com/p/PLACEHOLDER6/",
+      "platform": "instagram"
+    },
+    {
+      "id": "ew7",
+      "type": "IMAGE",
+      "media_url": "https://picsum.photos/id/1005/1200/800",
+      "thumbnail_url": "https://picsum.photos/id/1005/400/267",
+      "caption": "Quote: Start small, dream big.",
+      "permalink": "",
+      "platform": "instagram"
+    },
+    {
+      "id": "ew8",
+      "type": "IMAGE",
+      "media_url": "https://picsum.photos/id/1074/1200/800",
+      "thumbnail_url": "https://picsum.photos/id/1074/400/267",
+      "caption": "Quote: Let words do the work.",
+      "permalink": "",
+      "platform": "instagram"
+    }
+  ]
+}

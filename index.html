@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Prevent FOUC by applying theme early -->
+    <script>
+      (function() {
+        try {
+          var saved = null;
+          try { saved = localStorage.getItem('theme'); } catch(e) { saved = null; }
+          if (saved === 'dark') { document.documentElement.classList.add('dark'); return; }
+          if (saved === 'light') { document.documentElement.classList.remove('dark'); return; }
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (prefersDark) document.documentElement.classList.add('dark');
+          else document.documentElement.classList.remove('dark');
+        } catch (e) { /* fail silently */ }
+      })();
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <!-- Primary SEO -->
+    <title>EchoWritings — Daily inspiration & motivational stories</title>
+    <meta name="description" content="EchoWritings — Daily motivational quotes, short stories, and practical mindset guides in English & Hindi. Join 50,000+ readers for free inspiration and growth." />
+    <meta name="keywords" content="motivation, quotes, inspirational stories, personal growth, mindset, EchoWritings" />
+    <link rel="canonical" href="https://www.echowritings.com/" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Language / regional -->
+    <link rel="alternate" href="https://www.echowritings.com/" hreflang="en" />
+    <link rel="alternate" href="https://www.echowritings.com/" hreflang="en-IN" />
+
+    <!-- Social (Open Graph) -->
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EchoWritings — Daily inspiration & motivational stories" />
+    <meta property="og:description" content="Daily motivational quotes, short stories, and practical mindset tips — in English & Hindi. Join our community for free inspiration." />
+    <!-- Replace the image URL below with a hosted, sized image (1200x630 recommended) -->
+    <meta property="og:image" content="https://www.echowritings.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://www.echowritings.com/" />
+    <meta property="og:site_name" content="EchoWritings" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EchoWritings — Daily inspiration & motivational stories" />
+    <meta name="twitter:description" content="Daily motivational quotes, short stories, and mindset guides in English & Hindi. Free — join 50,000+ readers." />
+    <meta name="twitter:image" content="https://www.echowritings.com/og-image.jpg" />
+    <meta name="twitter:site" content="@EchoWritings" /> <!-- update if different -->
+    <meta name="twitter:creator" content="@EchoWritings" /> <!-- update if different -->
+
+    <!-- Mobile / PWA -->
+    <meta name="theme-color" content="#f59e0b" />
+    <link rel="manifest" href="/manifest.webmanifest"> <!-- optional: add manifest when you have one -->
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" href="/icons/favicon-32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+
+    <!-- Fonts (preconnect + preload for performance) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Use the fonts you actually need; preload hero font if critical -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured data (JSON-LD): Organization + Website + SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.echowritings.com/#org",
+          "name": "EchoWritings",
+          "url": "https://www.echowritings.com/",
+          "logo": "https://www.echowritings.com/logo.png",
+          "sameAs": [
+            "https://x.com/EchoWritings",
+            "https://www.instagram.com/echowritings/",
+            "https://www.linkedin.com/company/echowritings/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.echowritings.com/#website",
+          "url": "https://www.echowritings.com/",
+          "name": "EchoWritings",
+          "publisher": { "@id": "https://www.echowritings.com/#org" },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.echowritings.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Helpful for Google indexing local dev (remove in production) -->
+    <!-- <meta name="google-site-verification" content="PASTE_YOUR_TOKEN_HERE" /> -->
+
+    <!-- Optional: analytics placeholder (add real ID on deploy) -->
+    <!-- Google Analytics / GA4: add production tag only -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
+    </script> -->
+
+    <!-- Stylesheet & app script injected by build -->
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="alternate" type="application/rss+xml" title="EchoWritings RSS" href="/rss.xml" />
+  </head>
+
+  <body class="bg-white dark:bg-neutral-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

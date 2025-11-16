@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Theme variables (single :root) ---------- */
+:root {
+  --brand: #f59e0b; /* amber */
+  --ring: 0 0% 0%;
+}
+
+/* ---------- Layout helpers ---------- */
+.container-px {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+/* ---------- Buttons (use Tailwind utilities via @apply) ---------- */
+/* Note: ensure `brand` color is defined in tailwind.config.js as "brand" or replace bg-brand with bg-amber-500 */
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium shadow-sm transition active:scale-[0.98];
+}
+.btn-primary {
+  @apply btn bg-brand text-white hover:opacity-90;
+}
+.btn-outline {
+  @apply btn border border-brand text-brand hover:bg-brand hover:text-white;
+}
+
+/* ---------- Card ---------- */
+.card {
+  @apply rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm;
+}
+
+/* ---------- Section title + muted text ---------- */
+.section-title {
+  @apply text-3xl md:text-4xl font-semibold tracking-tight text-neutral-900 dark:text-white;
+}
+.muted {
+  @apply text-neutral-600 dark:text-neutral-300;
+}
+
+/* ---------- Small safe animations (unique names) ---------- */
+/* Use Tailwind's built-in animate-* where possible.
+   Define one small float animation with a unique name if needed. */
+@keyframes floatLogoTiny {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(0px); }
+}
+.animate-floatLogoTiny { animation: floatLogoTiny 3s ease-in-out infinite; }
+
+/* ---------- Utility fallbacks / helpers ---------- */
+/* text-brand fallback using CSS var (safe) */
+.text-brand { color: var(--brand); }
+
+/* Smoothing for large headings */
+@media (min-width: 768px) {
+  h1 { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+}
+
+/* ---------- Accessibility / focus ---------- */
+:focus { outline: 2px solid rgba(245,158,11,0.12); outline-offset: 2px; }
+
+/* ---------- Notes ----------
+1) If your tailwind.config.js DOES NOT define `colors.brand`, change all `bg-brand`, `text-brand`, `border-brand` usages
+   to a concrete Tailwind amber class (e.g., bg-amber-500 / text-amber-500 / border-amber-500).
+2) Avoid adding large custom CSS blocks here — prefer Tailwind utilities to keep the build stable.
+3) If you need a glass pill or very specific effect, implement it USING Tailwind utilities (bg-white/10 + backdrop-blur-sm etc.)
+   so PostCSS/Tailwind doesn't strip classes.
+------------------------------------------------------------------- */
