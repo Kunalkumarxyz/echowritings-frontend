@@ -12,7 +12,7 @@ import seedPosts from "../data/posts.js";
  *  - Else saves to localStorage (prepends new)
  */
 
-const RAW_BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const RAW_BACKEND = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
 export const BACKEND = RAW_BACKEND ? RAW_BACKEND.replace(/\/+$/, "") : "";
 
 const DEFAULT_TIMEOUT = 7000;
