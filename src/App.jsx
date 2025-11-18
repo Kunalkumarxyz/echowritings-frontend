@@ -14,6 +14,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 import TermsOfService from "./pages/TermsOfService.jsx";
 import StoryDetails from './pages/StoryDetails.jsx';
 import SubscribeThanks from './pages/SubscribeThanks.jsx';
+import Confirm from './pages/Confirm.jsx';
+
 
 export default function App(){
   return (
@@ -29,6 +31,7 @@ export default function App(){
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/confirm" element={<Confirm />} />
 
 
           {/* dynamic stories */} 
