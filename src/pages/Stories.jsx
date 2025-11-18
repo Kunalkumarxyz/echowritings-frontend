@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import initialPosts from "../data/posts.js";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
 
 export default function Stories() {
   const [posts, setPosts] = useState(initialPosts);
