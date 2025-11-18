@@ -1,6 +1,6 @@
 // src/utils/api.js
 
-const RAW = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
+const RAW = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
 
 // Ensure no trailing slash
 export const BACKEND = RAW.replace(/\/+$/, "");
