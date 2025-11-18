@@ -2,7 +2,7 @@
 import { useState } from "react";
 import postsFile from "../data/posts.js"; // seed data (might be ESM or CJS)
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
 
 function slugify(s = "") {
   return s
