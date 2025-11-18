@@ -16,7 +16,7 @@ export default function Confirm() {
 
     async function verify() {
       try {
-        const backend = import.meta.env.VITE_BACKEND_URL || "";
+        const backend = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
         // call backend confirm endpoint (it will mark verified and redirect normally,
         // but here we call API endpoint directly to get JSON or status)
         const url = (backend ? backend.replace(/\/$/, "") : "") + `/api/confirm?token=${encodeURIComponent(token)}`;
