@@ -18,7 +18,7 @@ export default function Contact() {
     if (typeof post === "function") {
       return await post("/api/contact", body);
     } else {
-      const backend = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
+      const backend = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
       const res = await fetch(`${backend}/api/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
