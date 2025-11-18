@@ -1,16 +1,19 @@
-// src/pages/SubscribeThanks.jsx
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function SubscribeThanks() {
-  const loc = useLocation();
-  useEffect(()=> {
-    // optional: page view analytics
-  }, []);
   return (
-    <div className="container-px mx-auto py-20 text-center">
-      <h1 className="section-title">Subscription confirmed</h1>
-      <p className="muted mt-4">Thanks — your email is verified. Check your inbox for updates.</p>
-    </div>
+    <main className="container-px mx-auto py-24 text-center">
+      <div className="max-w-xl mx-auto card p-8 rounded-2xl">
+        <h1 className="text-2xl font-semibold mb-4">You're all set! 🎉</h1>
+        <p className="muted mb-6">
+          Your subscription has been successfully confirmed.  
+          You'll now receive updates from EchoWritings.
+        </p>
+
+        <Link to="/" className="btn btn-primary">
+          Back to Home
+        </Link>
+      </div>
+    </main>
   );
 }
