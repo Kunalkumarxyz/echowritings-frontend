@@ -13,6 +13,7 @@ import AdminAddStory from "./pages/AdminAddStory.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 import TermsOfService from "./pages/TermsOfService.jsx";
 import StoryDetails from './pages/StoryDetails.jsx';
+import SubscribeThanks from './pages/SubscribeThanks.jsx';
 
 export default function App(){
   return (
@@ -24,11 +25,14 @@ export default function App(){
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/stories" element={<Stories />} />
+          <Route path="/subscribe-thanks" element={<SubscribeThanks />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+
 
           {/* dynamic stories */} 
           <Route path="/stories/:slug" element={<StoryDetails />} />
-
-          <Route path="/contact" element={<Contact />} />
 
           {/* Admin routes */}
           <Route path="/admin" element={<AdminPublish />} />
