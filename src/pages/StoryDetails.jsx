@@ -5,7 +5,7 @@ import { ArrowLeft, Share2 } from "lucide-react";
 import Meta from "../components/Meta.jsx";
 import seedPosts from "../data/posts.js";
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
 
 async function fetchPostsFromBackend() {
   if (!BACKEND) return null;
