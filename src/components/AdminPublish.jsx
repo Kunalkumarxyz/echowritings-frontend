@@ -6,7 +6,7 @@
 import React, { useState } from "react";
 import { post } from "../utils/api"; // optional helper; safe fallback included
 
-const BACKEND = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
+const BACKEND = import.meta.env.VITE_BACKEND_URL || "https://echowritings-backend.onrender.com";
 
 export default function AdminPublish() {
   const [title, setTitle] = useState("");
