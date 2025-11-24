@@ -54,7 +54,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="w-11 h-11 rounded-full overflow-hidden shadow-sm border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900
                               animate-[floatLogo_4s_ease-in-out_infinite]" aria-hidden="true">
-                <img src="/src/assets/logo.jpg" alt="EchoWritings Logo" className="w-full h-full object-cover"/>
+                <img src="/src/assets/Logo.jpg" alt="EchoWritings Logo" className="w-full h-full object-cover"/>
               </div>
               <div>
                 <div className="font-semibold text-neutral-900 dark:text-white">Echo<span className="text-brand">Writings</span></div>
