@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Meta
         title="EchoWritings — Daily inspiration & stories"
-        description="EchoWritings brings daily motivation, short stories, and life-changing quotes in English & Hindi. Join 50,000+ readers for daily inspiration, mindset tips, and practical growth guides."
+        description="EchoWritings brings daily motivation, short stories, and life-changing quotes in English & Hindi. Join 20,000+ readers for daily inspiration, mindset tips, and practical growth guides."
         url="https://www.echowritings.com/"
         image="/src/assets/Logo.jpg"
         keywords="motivation, quotes, inspirational stories, personal growth, mindset, daily quotes"
