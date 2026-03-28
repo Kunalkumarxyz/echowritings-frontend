@@ -9,7 +9,7 @@ export default function Offerings() {
     },
     {
       title: "Personal Growth Library",
-      desc: "Access 1,000+ articles on mindset, productivity, relationships, and more."
+      desc: "Access 100+ articles on mindset, productivity, relationships, and more."
     },
     {
       title: "Expert Coaching Content",
