@@ -29,7 +29,7 @@ export default function About() {
         {/* NEW INFORMATION (ADDED professionally) */}
         <p className="muted mt-4 leading-relaxed">
           EchoWritings is a self-owned digital platform founded by{" "}
-          <span className="font-semibold text-neutral-900 dark:text-white">Kunal Kumar</span> in 2020,
+          <span className="font-semibold text-neutral-900 dark:text-white">Kunal Kumar</span> in 2024,
           focusing on spreading positivity and thought-provoking motivation. We share daily encouragement
           in both Hindi and English, offering visually engaging reels, posters, and quotes that inspire
           growth, resilience, and emotional strength.
@@ -171,8 +171,8 @@ export default function About() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10 max-w-5xl mx-auto">
           {[
-            { value: "50K+", label: "Daily Readers" },
-            { value: "1M+", label: "Quotes Viewed" },
+            { value: "20K+", label: "Daily Readers" },
+            { value: "1.5M+", label: "Quotes Viewed" },
             { value: "120+", label: "Countries Reached" },
             { value: "24/7", label: "Inspiration Available" }
           ].map((it, i) => (
@@ -205,7 +205,7 @@ export default function About() {
               Who is the founder?
             </h3>
             <p className="muted mt-2">
-              EchoWritings is founded by Kunal Kumar, a creator and developer from Bihar, India.
+              EchoWritings is founded by Kunal Kumar, a Content Editor and Developer from Bihar, India.
             </p>
           </div>
 
