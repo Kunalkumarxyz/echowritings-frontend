@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 export default function CategoriesGrid() {
   const cats = [
-    { slug: "mindset", title: "Mindset & Mental Health", count: "120+ articles" },
-    { slug: "goals", title: "Goal Setting & Achievement", count: "85+ articles" },
-    { slug: "career-growth", title: "Career & Professional Growth", count: "95+ articles" },
-    { slug: "relationships", title: "Relationships & Communication", count: "70+ articles" },
-    { slug: "wellness", title: "Self-Care & Wellness", count: "110+ articles" },
-    { slug: "creativity", title: "Creativity & Innovation", count: "60+ articles" },
-    { slug: "leadership", title: "Leadership & Influence", count: "75+ articles" },
-    { slug: "learning", title: "Learning & Development", count: "90+ articles" },
+    { slug: "mindset", title: "Mindset & Mental Health", count: "20+ articles" },
+    { slug: "goals", title: "Goal Setting & Achievement", count: "10+ articles" },
+    { slug: "career-growth", title: "Career & Professional Growth", count: "10+ articles" },
+    { slug: "relationships", title: "Relationships & Communication", count: "10+ articles" },
+    { slug: "wellness", title: "Self-Care & Wellness", count: "10+ articles" },
+    { slug: "creativity", title: "Creativity & Innovation", count: "10+ articles" },
+    { slug: "leadership", title: "Leadership & Influence", count: "10+ articles" },
+    { slug: "learning", title: "Learning & Development", count: "20+ articles" },
   ];
 
   return (
