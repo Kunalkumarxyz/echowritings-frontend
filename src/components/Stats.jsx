@@ -2,10 +2,10 @@
 
 export default function Stats() {
   const items = [
-    { value: "50K+", label: "Daily Readers" },
+    { value: "20K+", label: "Daily Readers" },
     { value: "120+", label: "Countries Reached" },
-    { value: "10M+", label: "Total Impressions" },
-    { value: "5K+", label: "Quotes Delivered" }
+    { value: "5.7M+", label: "Total Impressions" },
+    { value: "1.2K+", label: "Quotes Delivered" }
   ];
 
   return (
