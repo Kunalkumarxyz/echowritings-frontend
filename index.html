@@ -70,34 +70,34 @@
 
     <!-- Structured data (JSON-LD): Organization + Website + SearchAction -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://www.echowritings.com/#org",
-          "name": "EchoWritings",
-          "url": "https://www.echowritings.com/",
-          "logo": "https://www.echowritings.com/logo.png",
-          "sameAs": [
-            "https://x.com/EchoWritings",
-            "https://www.instagram.com/echowritings/",
-            "https://www.linkedin.com/company/echowritings/"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.echowritings.com/#website",
-          "url": "https://www.echowritings.com/",
-          "name": "EchoWritings",
-          "publisher": { "@id": "https://www.echowritings.com/#org" },
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://www.echowritings.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        },
-      {
+      "@type": "Organization",
+      "@id": "https://www.echowritings.com/#org",
+      "name": "EchoWritings",
+      "url": "https://www.echowritings.com/",
+      "logo": "https://www.echowritings.com/logo.png",
+      "sameAs": [
+        "https://x.com/EchoWritings",
+        "https://www.instagram.com/echowritings/",
+        "https://www.linkedin.com/company/echowritings/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.echowritings.com/#website",
+      "url": "https://www.echowritings.com/",
+      "name": "EchoWritings",
+      "publisher": { "@id": "https://www.echowritings.com/#org" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.echowritings.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
       "@type": "Person",
       "@id": "https://www.echowritings.com/#kunal",
       "name": "Kunal Kumar",
