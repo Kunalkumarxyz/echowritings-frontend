@@ -116,18 +116,15 @@
 }
 </script>
 
-    <!-- Helpful for Google indexing local dev (remove in production) -->
-    <!-- <meta name="google-site-verification" content="PASTE_YOUR_TOKEN_HERE" /> -->
+    <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5LQNYGXN1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <!-- Optional: analytics placeholder (add real ID on deploy) -->
-    <!-- Google Analytics / GA4: add production tag only -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true });
-    </script> -->
+  gtag('config', 'G-5LQNYGXN1');
+</script>
 
     <!-- Stylesheet & app script injected by build -->
     <link rel="stylesheet" href="/src/styles.css" />
