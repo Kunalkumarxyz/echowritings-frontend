@@ -214,6 +214,75 @@ const posts = [
     
     "At the end of the day, programming is about creating impact. It’s about building something useful, solving real problems, and making life easier for people. Code is not just lines—it’s a way to shape the future."
   ]
+},
+  {
+  id: 13,
+  slug: "haar-se-jeet",
+  title: "हार से जीत: गिरकर उठने की ताकत",
+  metaTitle: "हार से जीत | Motivation Story in Hindi — EchoWritings",
+  metaDescription: "हार अंत नहीं है। हर गिरावट आपको और मजबूत बनाती है। सीखें कैसे असफलता सफलता की शुरुआत होती है।",
+  time: "4 min read",
+  date: "2026-04-24",
+  img: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1400&auto=format&fit=crop",
+  author: "EchoWritings",
+  excerpt: "हर हार एक नई शुरुआत होती है, बस नजरिया बदलने की जरूरत है।",
+  content: [
+    "राहुल ने कई बार कोशिश की, लेकिन हर बार उसे असफलता मिली। धीरे-धीरे उसने खुद पर शक करना शुरू कर दिया। उसे लगा कि शायद वो इसके लायक नहीं है।",
+    
+    "एक दिन उसने सोचा—क्या सच में हार ही अंत है? या यह एक मौका है कुछ नया सीखने का? उसने अपनी गलतियों को समझना शुरू किया और खुद को बेहतर बनाने का फैसला किया।",
+    
+    "धीरे-धीरे उसकी मेहनत रंग लाने लगी। वही काम जो पहले मुश्किल लगता था, अब आसान लगने लगा। उसका आत्मविश्वास वापस आ गया।",
+    
+    "कुछ महीनों बाद, वही राहुल जिसने कई बार हार देखी थी, अब सफलता की ओर बढ़ रहा था।",
+    
+    "सच्चाई यह है कि हार आपको रोकने नहीं आती, बल्कि आपको सिखाने आती है। अगर आप गिरकर उठना सीख गए, तो कोई भी आपको रोक नहीं सकता।"
+  ]
+},
+  {
+  id: 14,
+  slug: "chhoti-shuruaat-badi-jeet",
+  title: "छोटी शुरुआत, बड़ी जीत",
+  metaTitle: "छोटी शुरुआत बड़ी जीत | Daily Motivation Hindi — EchoWritings",
+  metaDescription: "बड़ी सफलता छोटी-छोटी आदतों से बनती है। जानिए कैसे रोज़ के छोटे कदम आपकी जिंदगी बदल सकते हैं।",
+  time: "4 min read",
+  date: "2026-04-24",
+  img: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1400&auto=format&fit=crop",
+  author: "EchoWritings",
+  excerpt: "हर बड़ा बदलाव एक छोटी शुरुआत से ही आता है।",
+  content: [
+    "अक्सर हम बड़े सपने देखते हैं, लेकिन शुरुआत करने से डरते हैं। हमें लगता है कि जब तक सब कुछ परफेक्ट नहीं होगा, तब तक शुरू नहीं करना चाहिए।",
+    
+    "लेकिन सच्चाई यह है कि परफेक्ट समय कभी नहीं आता। जो लोग सफल होते हैं, वे छोटी शुरुआत करते हैं और धीरे-धीरे आगे बढ़ते हैं।",
+    
+    "रोज़ का एक छोटा कदम—चाहे वो 10 मिनट पढ़ाई हो या एक नया स्किल सीखना—समय के साथ बड़ा बदलाव लाता है।",
+    
+    "सबसे जरूरी है consistency। अगर आप रोज़ थोड़ा-थोड़ा भी करते हैं, तो कुछ महीनों में आप खुद में बड़ा फर्क देखेंगे।",
+    
+    "याद रखिए, सफलता एक दिन में नहीं मिलती, लेकिन रोज़ की छोटी मेहनत आपको वहां तक जरूर पहुंचा देती है।"
+  ]
+},
+  {
+  id: 15,
+  slug: "discipline-over-motivation",
+  title: "Discipline Over Motivation: The Real Game Changer",
+  metaTitle: "Discipline Over Motivation | Success Mindset — EchoWritings",
+  metaDescription: "Motivation fades, but discipline stays. Learn why discipline is the key to long-term success.",
+  time: "4 min read",
+  date: "2026-04-24",
+  img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1400&auto=format&fit=crop",
+  author: "EchoWritings",
+  excerpt: "Motivation starts the journey, but discipline finishes it.",
+  content: [
+    "Motivation feels powerful, but it doesn’t last. One day you feel unstoppable, and the next day you don’t even want to start. That’s the problem with relying only on motivation.",
+    
+    "Discipline, on the other hand, is different. It doesn’t depend on how you feel. It’s about showing up even when you don’t feel like it.",
+    
+    "Successful people don’t wait for motivation—they build routines. They follow systems that keep them moving forward every single day.",
+    
+    "When you choose discipline, you remove excuses. You create a structure that supports your goals, no matter your mood.",
+    
+    "In the long run, discipline always beats motivation. Because success isn’t about how you start—it’s about how consistently you keep going."
+  ]
 }
 ];
 
