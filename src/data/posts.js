@@ -189,7 +189,32 @@ const posts = [
       "Make it obvious (attach to an existing routine), make it tiny (almost impossible to fail), and track it for 30 days.",
       "Consistency builds identity. After a month, the habit will feel normal and you can gradually increase it."
     ]
-  }
+  },
+  {
+  id: 12,
+  slug: "code-beyond-lines",
+  title: "Code Beyond Lines: Building More Than Just Software",
+  metaTitle: "Code Beyond Lines | Real Meaning of Programming — EchoWritings",
+  metaDescription: "Programming is not just writing code. Learn how developers solve problems, think logically, and create real-world impact.",
+  time: "5 min read",
+  date: "2026-04-24",
+  img: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop",
+  author: "EchoWritings",
+  excerpt: "Coding isn’t about syntax—it’s about solving problems and building things that matter.",
+  content: [
+    "Most beginners think coding is about memorizing syntax, but real programming starts when you begin solving problems. Code is just a tool—the real skill is thinking logically and breaking complex problems into smaller, manageable steps.",
+    
+    "Every app you use today started as an idea. Developers turn those ideas into reality by writing instructions that machines can understand. Whether it’s a simple website or a powerful AI system, everything is built one line at a time.",
+    
+    "Errors and bugs are not failures—they are part of the journey. Each bug teaches you something new about how systems work. The best developers are not those who write perfect code, but those who know how to debug and improve continuously.",
+    
+    "Consistency matters more than intensity. Writing code for 30 minutes daily is far more powerful than coding for 10 hours once a week. Skills grow when you stay connected to the process regularly.",
+    
+    "Technology is always evolving. New frameworks, languages, and tools will keep coming, but strong fundamentals will always stay relevant. Focus on understanding concepts instead of chasing trends.",
+    
+    "At the end of the day, programming is about creating impact. It’s about building something useful, solving real problems, and making life easier for people. Code is not just lines—it’s a way to shape the future."
+  ]
+}
 ];
 
 // Export for ESM (frontend) and CommonJS (backend) compatibility:
